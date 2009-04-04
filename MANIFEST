@@ -1,0 +1,7 @@
+MANIFEST
+lib/The/Net.pm
+Makefile.PL
+Changes
+README
+t/000_basic.t
+META.yml                                 Module meta-data (added by MakeMaker)
