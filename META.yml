@@ -1,13 +1,31 @@
 --- #YAML:1.0
-name:                The-Net
-version:             2009040401
-abstract:            ~
-license:             ~
-author:              
+name:               The-Net
+version:            2009110701
+abstract:           Use the Net to fetch your required modules.
+author:
     - Abigail <cpan@abigail.be>
-generated_by:        ExtUtils::MakeMaker version 6.42
-distribution_type:   module
-requires:     
+license:            mit
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    Lingua::EN::Numbers:  1.01
+    perl:                 5.006
+    strict:               0
+    warnings:             0
+resources:
+    repository:  git://github.com/Abigail/the--net.git
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.55_02
 meta-spec:
-    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
-    version: 1.3
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
+keywords:  []
+test_requires:
+    strict:    0
+    warnings:  0

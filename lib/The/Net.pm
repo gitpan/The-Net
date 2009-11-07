@@ -6,7 +6,7 @@ use strict;
 use warnings;
 no  warnings 'syntax';
 
-our $VERSION = '2009040401';
+our $VERSION = '2009110701';
 
 push @INC => sub {
     require LWP::Simple;
@@ -33,7 +33,7 @@ __END__
 
 =head1 NAME
 
-The::Net  --  Use the Net to fetch your required modules.
+The::Net - Use the Net to fetch your required modules.
 
 =head1 SYNOPSIS
 
