@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               The-Net
-version:            2009110701
+version:            2009110702
 abstract:           Use the Net to fetch your required modules.
 author:
     - Abigail <cpan@abigail.be>
@@ -11,10 +11,12 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    Lingua::EN::Numbers:  1.01
-    perl:                 5.006
-    strict:               0
-    warnings:             0
+    Fcntl:        0
+    IO::File:     0
+    LWP::Simple:  0
+    perl:         5.006
+    strict:       0
+    warnings:     0
 resources:
     repository:  git://github.com/Abigail/the--net.git
 no_index:
